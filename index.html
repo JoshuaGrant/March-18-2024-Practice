@@ -6,20 +6,45 @@
     <title>Document</title>
 
     <link type = "text/css" rel = "stylesheet" href = "style.css">
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        #wrapper-div {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            min-height: 100px;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
 </head>
 <body>
-    <p>
-        This is a pargraph.
-    </p>
-
-    <p>
-        This is a new paragraph.
-    </p>
-
-    <ol>
-        <li>List item 1</li>
-        <li>List item 2</li>
-        <li>List item 3</li>
-    </ol>
+    <div id = "wrapper-div">
+        <p>
+            This is a pargraph.
+        </p>
+    
+        <p>
+            This is a new paragraph.
+        </p>
+    
+        <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ol>
+    </div>
 </body>
 </html>

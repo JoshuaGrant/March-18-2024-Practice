@@ -1,4 +1,15 @@
+body {
+    background-color: black;
+    color: red;
+    font-size: medium;
+}
+
 p {
     background-color: blue;
-    font-size: 30px;
+    font-size: 150%;
+    margin: 20px;
+}
+
+ol {
+    list-style-type: square;
 }
